@@ -1,0 +1,12 @@
+<script>
+  // Array with random int els, 0 through max
+  var randomData = function(len,max) {
+    var out = []
+    len = len || 0;
+    max = max || 5
+    while(len--)
+      out.push(Math.floor(Math.random() * (max + 1)));
+    return out;
+  }
+  var data = randomData(24);
+</script>
